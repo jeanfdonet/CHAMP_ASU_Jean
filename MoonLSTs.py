@@ -92,7 +92,7 @@ uvd.phase(zenithra,zenithdec,ephem.J2000)
 uvd2.phase(zenithra,zenithdec,ephem.J2000)
 
 #Changing to appropriate directory
-cd /data6/HERA/HERA_imaging/jeanimport/
+#cd /data6/HERA/HERA_imaging/jeanimport/
 
 #Writing out the updated files to uvfits
 uvd.write_uvfits("805512552.uvfits", spoof_nonessential=True)
